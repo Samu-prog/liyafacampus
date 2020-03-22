@@ -1,0 +1,93 @@
+body{
+    background: #f0f0f0;
+    font: 15px/22px arial, sans-serif;
+    margin: 0px;
+    clear: both;	
+}
+header{
+	background-color: #405580;
+	border-radius: 5px;
+}
+
+.icon-bar{
+	background: yellow;
+}
+ul li a{
+  color: white;
+   margin-left: 0px;
+  }
+
+  #my{
+  	border-radius: 10px;
+    margin-top: 12px;
+}
+ #mainImage{
+  	border-radius: 10px;
+  }
+   #room{
+  	border-radius: 10px;
+    padding: 0px;
+  }
+  div.container1{
+  margin-top: -50px;
+  font-family: 'raleway', sans-serif;
+}
+div.main1{
+  background-color:  gray;
+  width: 350px;
+  height:370px; 
+  padding: 10px 50px 25px;
+  border-radius: 10px;
+  font-family: raleway;
+  margin-top: 50px;
+}
+input #in1, input #in1{
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border:2px solid #ccc;
+  color: #464646;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#label1{
+  color: #00ff00;
+  text-shadow: 0 1px0 #fff;
+  font-size: 14;
+  font-weight: bold;
+}
+
+.valid{
+  color: green;
+}
+input[type=button]{
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 16px;
+  background: linear-gradient (#ffbc00 5%, #ffdd7f 100%);
+  border:1px solid #e5a900;
+  color: #4e4d4b;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  outline: none;
+}
+input[type=reset]{
+  font-size: 16px;
+  background: linear-gradient (#ffbc00 5%, #ffdd7f 100%);
+  border:1px solid#e5a900;
+  color: #4e4d4b;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  outline: none;
+}
+input[type=button]:hover{
+  background: linear=linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
